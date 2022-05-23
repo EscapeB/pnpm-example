@@ -1,0 +1,23 @@
+{
+  "name": "components",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "simple components",
+  "main": "lib/index.js",
+  "author": "EscapeB",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.6",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "typescript": "^4.6.4"
+  }
+}
